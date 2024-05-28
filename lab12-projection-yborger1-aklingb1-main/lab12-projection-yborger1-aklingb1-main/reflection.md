@@ -1,0 +1,4 @@
+We were able to take the output of our Lab 1 (dithering + other effects) code and use P5's built-in translation matrix to project it onto a virtual surface. We then used a physical projector to project the results onto the wall of the classroom.
+
+Matrix 1 (matching up with four dots on whiteboard): [ 0.3701950107898382, 0.025322592608183977, -699, 0.01475983338645562, 0.482302655156615, -437.5, -0.00008279684834488994, -0.00008210010555409664, 1 ]
+Matrix 2 (matching up with a ceiling tile): [ 0.3973163839122764, -0.03954869137905395, -414, 0.017760557663645215, 0.6573301952792311, -526.5, 0.000015129451068662041, 0.00004176749446855299, 1 ]

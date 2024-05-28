@@ -1,0 +1,6 @@
+Collaboration Statement: 
+I (Yael) worked on this lab with Addie, and we shared the work as equally as possible.
+I (Addie) worked on this lab with Yael, and we shared the work as equally as possible.
+
+Part 2 Write-up section
+Based entirely on the theoretical times, the double for-loops are meant to make more intuitive sense but take longer than a doubly linear set of for-loops. However, the important note is that this trick is "exploiting the linear separability," meaning it is meant to theoretically be shorter in the same way that constant time is meant to be instant. In practice, because we have to also set the individual pixel values (r,g,b,alpha) and blur between the two linear filters, the real time is increased (consider the "loading values" as a constant-time operation in theory but actual time in real life). While testing the two different blurring filters, we did not see a visible difference in time, but using the millis() function revealed that the separated blur took about half the time of the regular box blur (~8 milliseconds as opposed to ~16). Regardless, we both agreed that the polynomial-timed version was more intuitive to the filtering concept than the layered linear filters, and sometimes (when the difference is this imperceptible), it is better to prefer the one that made more sense.

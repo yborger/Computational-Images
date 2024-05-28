@@ -1,0 +1,8 @@
+I worked alone for this project, and I used the example of the particle system as a reference for creating my own system that made more sense to me.
+I am personally hoping to make a dynamic picture that works. I have never worked with dynamic elements so this is really new and I have absolutely no idea how this will work out, let alone what is actually possible.
+I am planning to use an image of the Cherry Border at Swarthmore because it is a really nice photo, and I suppose I want to make it appear serene and relaxing.
+
+I used the particle system example as the main reference for the spheres that flow from the mouse.
+There are two main sections of my final creation: the drawn-in lines (static that are triggered dynamically but remain in place), and the spheres that follow the mouse (like the leaves falling effect). By clicking the mouse, you can show the static drawn-in tree pieces. Initially, the only goal was the particle-leaves following the mouse around like leaves in a serene scene. 
+
+The reason for this static part is because I had been struggling a bit with the particle system, as something had not been working correctly when I changed it from the vector form to the x and y form (I found a solution and kept the vector position format), and while I was thinking I started drawing out the trees with lines and this is the point I got to before I figured out the solution to the particle issue. 
